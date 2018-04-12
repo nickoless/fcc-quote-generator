@@ -1,11 +1,11 @@
 $(() => {
   let getQuote = () => {
-    $.getJSON("http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=", (a) => {
-      $(".message").html(a[0].content);
-      $(".author").html(a[0].title)
+    $.getJSON('https://thesimpsonsquoteapi.glitch.me/quotes', (a) => {
+      $(".message").html(a[0].quote);
+      $(".author").html(a[0].character)
     });
   };
-  
+
   getQuote();
 
   $('button').on('click', () => {
