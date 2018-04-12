@@ -3,8 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    
-    <title>Quote</title>
+    <title>Quote Me</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="/styles/styles.css">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono" rel="stylesheet">
@@ -12,17 +11,15 @@
   <body>
     <div class="container">
       <div class="speech-bubble">
-          <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSI2NHB4IiBoZWlnaHQ9IjY0cHgiIHZpZXdCb3g9IjAgMCAxNiAxNiI+CjxwYXRoIGZpbGw9IiMwMDAwMDAiIGQ9Ik03IDd2N2gtN3YtNy4xYzAtNC44IDQuNS01LjQgNC41LTUuNGwwLjYgMS40YzAgMC0yIDAuMy0yLjQgMS45LTAuNCAxLjIgMC40IDIuMiAwLjQgMi4yaDMuOXoiLz4KPHBhdGggZmlsbD0iIzAwMDAwMCIgZD0iTTE2IDd2N2gtN3YtNy4xYzAtNC44IDQuNS01LjQgNC41LTUuNGwwLjYgMS40YzAgMC0yIDAuMy0yLjQgMS45LTAuNCAxLjIgMC40IDIuMiAwLjQgMi4yaDMuOXoiLz4KPC9zdmc+Cg==" />
-          <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSI2NHB4IiBoZWlnaHQ9IjY0cHgiIHZpZXdCb3g9IjAgMCAxNiAxNiI+CjxwYXRoIGZpbGw9IiMwMDAwMDAiIGQ9Ik05IDl2LTdoN3Y3LjFjMCA0LjgtNC41IDUuNC00LjUgNS40bC0wLjYtMS40YzAgMCAyLTAuMyAyLjQtMS45IDAuNC0xLjItMC40LTIuMi0wLjQtMi4yaC0zLjl6Ii8+CjxwYXRoIGZpbGw9IiMwMDAwMDAiIGQ9Ik0wIDl2LTdoN3Y3LjFjMCA0LjgtNC41IDUuNC00LjUgNS40bC0wLjYtMS40YzAgMCAyLTAuMyAyLjQtMS45IDAuNC0xLjItMC40LTIuMi0wLjQtMi4yaC0zLjl6Ii8+Cjwvc3ZnPgo=" />
+        <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSI2NHB4IiBoZWlnaHQ9IjY0cHgiIHZpZXdCb3g9IjAgMCAxNiAxNiI+CjxwYXRoIGZpbGw9IiMwMDAwMDAiIGQ9Ik03IDd2N2gtN3YtNy4xYzAtNC44IDQuNS01LjQgNC41LTUuNGwwLjYgMS40YzAgMC0yIDAuMy0yLjQgMS45LTAuNCAxLjIgMC40IDIuMiAwLjQgMi4yaDMuOXoiLz4KPHBhdGggZmlsbD0iIzAwMDAwMCIgZD0iTTE2IDd2N2gtN3YtNy4xYzAtNC44IDQuNS01LjQgNC41LTUuNGwwLjYgMS40YzAgMC0yIDAuMy0yLjQgMS45LTAuNCAxLjIgMC40IDIuMiAwLjQgMi4yaDMuOXoiLz4KPC9zdmc+Cg==" />
+        <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSI2NHB4IiBoZWlnaHQ9IjY0cHgiIHZpZXdCb3g9IjAgMCAxNiAxNiI+CjxwYXRoIGZpbGw9IiMwMDAwMDAiIGQ9Ik05IDl2LTdoN3Y3LjFjMCA0LjgtNC41IDUuNC00LjUgNS40bC0wLjYtMS40YzAgMCAyLTAuMyAyLjQtMS45IDAuNC0xLjItMC40LTIuMi0wLjQtMi4yaC0zLjl6Ii8+CjxwYXRoIGZpbGw9IiMwMDAwMDAiIGQ9Ik0wIDl2LTdoN3Y3LjFjMCA0LjgtNC41IDUuNC00LjUgNS40bC0wLjYtMS40YzAgMCAyLTAuMyAyLjQtMS45IDAuNC0xLjItMC40LTIuMi0wLjQtMi4yaC0zLjl6Ii8+Cjwvc3ZnPgo=" />
         <div class="text-box">
-        <p class="message"></p>
-        <p class="author"></p>
-
+          <p class="message"></p>
+          <p class="author"></p>
         </div>
         <button type="button" class="btn btn-default">QUOTE ME</button>
       </div>
     </div>
-    
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
