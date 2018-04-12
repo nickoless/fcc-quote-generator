@@ -52,11 +52,11 @@
 }
 
 .text-box {
-  top: 50%;
+  top: 45%;
   margin: 10% 5% 0% 5%
 }
 
-p {
+.message {
   display: inline-block;
 }
 
@@ -68,6 +68,6 @@ img {
 
 button {
   position: absolute;
-  bottom: 10%;
+  bottom: 5%;
   left: 40%;
 }
